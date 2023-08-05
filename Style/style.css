@@ -1,0 +1,113 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #050542;
+    background-image: url(../images/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    
+    
+    
+
+}
+.heading{
+    
+    text-align:center;
+    margin: auto;
+    color: white !important;
+    text-align: left; /* Align the headings to the left side */
+    margin-left: 20px; /* Add some spacing from the left edge */
+    
+    text-decoration: none;
+    padding: 20px;
+
+
+}
+a{
+    color: white !important;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 40px;
+
+    text-align:justify;
+    justify-content: space-between;
+    gap:300px;
+
+    
+}
+a:hover {
+    box-shadow: rgba(255, 255, 255, 0.25);
+}
+
+.container {
+    background-color: #fff;
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px 0;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.338);
+    border-radius: 10px; /* Make the stopwatch container round */
+   
+    margin-left: 20px; /* Add some spacing from the left edge */
+}
+
+.timer-display {
+    position: relative;
+    width: 92%;
+    background: #fff;
+    left: 4%;
+    font-family: 'Roboto mono', monospace;
+    color: #52ebff;
+    font-size: 30px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(65, 5, 145, 0.25);
+}
+
+.buttons {
+    width: 90%;
+    margin: 60px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.buttons button {
+    width: 120px;
+    height: 45px;
+    background-color: #52fff1;
+    color: #fff;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 25px; /* Make all buttons round */
+}
+
+.buttons button:nth-last-child(2) {
+    background-color: #09bbe3;
+}
+
+.buttons button:nth-last-child(1) {
+    background-color: #1ecff7;
+}
+
+.buttons button:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
+}
